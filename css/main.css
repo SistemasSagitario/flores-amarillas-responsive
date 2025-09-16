@@ -1812,3 +1812,49 @@ p {
     margin: 0;
     padding: 0;
 }
+
+/* Estilos para el desarrollado por */
+.dev {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 15px;
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dev p {
+    margin: 0;
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Arial', sans-serif;
+    font-weight: 300;
+}
+
+.dev a {
+    color: #fddd25;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.dev a:hover {
+    color: #fff;
+    text-shadow: 0 0 8px #fddd25;
+}
+
+/* Responsive para dispositivos móviles */
+@media (max-width: 600px) {
+    .dev {
+        bottom: 15px;
+        right: 15px;
+        padding: 8px 12px;
+    }
+    
+    .dev p {
+        font-size: 0.75rem;
+    }
+}

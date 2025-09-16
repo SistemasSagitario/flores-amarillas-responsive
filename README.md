@@ -36,6 +36,10 @@ flores-amarillas-responsive/
 - 📱 Móviles, tablets y desktop
 - ✅ Navegadores modernos (Chrome, Firefox, Safari, Edge)
 
+## 🎨 Inspiración
+
+Este proyecto está inspirado en animaciones de flores amarillas de **[CodePen](https://codepen.io/Nilver-TI/pen/PoroWJa)**.
+
 ## 👨‍💻 Desarrollador
 
 **Eas Morote** - [LinkedIn](https://www.linkedin.com/in/moroteelias/)
